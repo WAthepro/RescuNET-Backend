@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  backend:
+    image: waelali115/rescuenet-backend
+    container_name: rescuenet-backend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    image: waelali115/rescuenet-frontend
+    container_name: rescuenet-frontend
+    ports:
+      - "3000:3000"
+
